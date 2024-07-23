@@ -434,7 +434,7 @@ export default class UI extends Phaser.GameObjects.Container {
       this.overlayActive = false;
     });
   }
-
+  // 设置 模型 内部
   private setModeInternal(mode: Mode, clear: boolean, forceTransition: boolean, chainMode: boolean, args: any[]): Promise<void> {
     return new Promise(resolve => {
       if (this.mode === mode && !forceTransition) {
