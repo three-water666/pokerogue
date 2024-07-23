@@ -1,6 +1,7 @@
 export const legacyCompatibleImages: string[] = [];
 
 export class SceneBase extends Phaser.Scene {
+  // scaledCanvas 按比例缩小的画布
   /**
    * Since everything is scaled up by 6 by default using the game.canvas is annoying
    * Until such point that we use the canvas normally, this will be easier than

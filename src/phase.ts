@@ -1,6 +1,8 @@
 import BattleScene from "./battle-scene";
 
+// Phase 阶段
 export class Phase {
+  // BattleScene 战斗 场景
   protected scene: BattleScene;
 
   constructor(scene: BattleScene) {

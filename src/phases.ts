@@ -198,6 +198,7 @@ export class TitlePhase extends Phase {
     });
   }
 
+  // 开始界面选项
   showOptions(): void {
     const options: OptionSelectItem[] = [];
     if (loggedInUser.lastSessionSlot > -1) {
